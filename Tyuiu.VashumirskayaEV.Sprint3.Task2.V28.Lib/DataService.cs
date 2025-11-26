@@ -18,7 +18,7 @@ namespace Tyuiu.VashumirskayaEV.Sprint3.Task2.V28.Lib
             }
             while (k <= stopValue);
 
-            return p;
+            return Math.Round(p, 3);
         }
     }
 }
