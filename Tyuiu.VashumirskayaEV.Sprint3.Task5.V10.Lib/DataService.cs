@@ -8,6 +8,7 @@ namespace Tyuiu.VashumirskayaEV.Sprint3.Task5.V10.Lib
         {
             double sum = 0;
 
+
             for (int i = startValue1; i <= stopValue1; i++)
             {
                 for (int k = startValue2; k <= stopValue2; k++)
