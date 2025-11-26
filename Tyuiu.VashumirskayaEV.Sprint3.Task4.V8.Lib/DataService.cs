@@ -17,7 +17,7 @@ namespace Tyuiu.VashumirskayaEV.Sprint3.Task4.V8.Lib
                 result *= y;
             }
 
-            return result;
+            return Math.Round(result, 3);
         }
     }
 }
