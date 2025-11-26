@@ -15,7 +15,7 @@ namespace Tyuiu.VashumirskayaEV.Sprint3.Task1.V27.Lib
                 k++;
             }
 
-            return multiplySeries;
+            return Math.Round(multiplySeries, 1);
         }
     }
 }
