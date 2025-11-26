@@ -15,7 +15,7 @@ namespace Tyuiu.VashumirskayaEV.Sprint3.Task5.V10.Test
             double expected = ds.GetSumSumSeries(5, 1, 1, 3, 10);
             double result = ds.GetSumSumSeries(5, 1, 1, 3, 10);
 
-            Assert.Equal(expected, result);
+            Assert.AreEqual(expected, result);
         }
     }
 }
